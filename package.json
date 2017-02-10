@@ -1,0 +1,49 @@
+{
+  "name": "a2",
+  "version": "0.1.0",
+  "description": "An Angular2 client for Nn",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/brunch/bin/brunch watch",
+    "build": "./node_modules/brunch/bin/brunch build --production && say I am fucking finished",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthon/A2.git"
+  },
+  "author": "Astrom / Zimmer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/anthon/A2/issues"
+  },
+  "homepage": "https://github.com/anthon/A2#readme",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^2.10.5",
+    "brunch-typescript": "^2.1.0",
+    "codelyzer": "^2.0.0-beta.4",
+    "environment-brunch": "^1.0.0",
+    "javascript-brunch": "^2.0.0",
+    "stylus-brunch": "^2.8.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5",
+    "uglify-js-brunch": "^2.1.1"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.6",
+    "@angular/compiler": "^2.4.6",
+    "@angular/core": "^2.4.6",
+    "@angular/forms": "^2.4.6",
+    "@angular/http": "^2.4.6",
+    "@angular/platform-browser": "^2.4.6",
+    "@angular/platform-browser-dynamic": "^2.4.6",
+    "@angular/router": "^3.4.6",
+    "@types/es6-shim": "^0.31.32",
+    "es6-promise": "^4.0.5",
+    "es6-shim": "^0.35.3",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.1.0",
+    "tslib": "^1.5.0",
+    "zone.js": "^0.7.6"
+  }
+}
